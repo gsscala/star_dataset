@@ -16723,3 +16723,5 @@ ENV/
 *.swp
 *.swo
 *~
+advanced_cell_state/advanced_state.json
+full_data.json
