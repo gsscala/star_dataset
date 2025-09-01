@@ -15,7 +15,11 @@ def load_cell_data(file_path):
         dict: Dictionary containing the dataset fields.
     """
     data = loadmat(file_path, squeeze_me=True, struct_as_record=False)["Dataset"]
-    return data.__dict__
+    data = data.__dict__
+    columns = ["Time", "Line", "I", "U", "status", "T1"]
+    data = pd.DataFrame(data, columns=columns)
+
+    return data
 
 
 def process_states(path):
@@ -43,10 +47,73 @@ def process_states(path):
     data["status"] = np.where((data["Line"] > 26) & (data["Line"] < 28), "CC Discharge", data["status"])
     data["status"] = np.where((data["Line"] > 27) & (data["Line"] < 33), "CV Discharge", data["status"])
     data["status"] = np.where((data["Line"] > 32) & (data["Line"] < 35), "CC Charge", data["status"])
-    data["status"] = np.where((data["Line"] > 34), "Current Pulses", data["status"])
-
+    data["status"] = np.where((data["Line"] > 34) & (data["Line"] < 36), "CV Charge", data["status"])
+    data["status"] = np.where((data["Line"] > 35) & (data["Line"] < 37), "Rest", data["status"])
+    data["status"] = np.where((data["Line"] > 37) & (data["Line"] < 42), "Current Pulses", data["status"])
+    data["status"] = np.where((data["Line"] > 41) & (data["Line"] < 43), "CC Discharge", data["status"])
+    data["status"] = np.where((data["Line"] > 42) & (data["Line"] < 44), "Rest", data["status"])
+    data["status"] = np.where((data["Line"] > 43) & (data["Line"] < 49), "Current Pulses", data["status"])
+    data["status"] = np.where((data["Line"] > 48) & (data["Line"] < 50), "CC Discharge", data["status"])
+    data["status"] = np.where((data["Line"] > 49) & (data["Line"] < 51), "Rest", data["status"])
+    data["status"] = np.where((data["Line"] > 50) & (data["Line"] < 56), "Current Pulses", data["status"])
+    data["status"] = np.where((data["Line"] > 55) & (data["Line"] < 57), "CC Charge", data["status"])
+    data["status"] = np.where((data["Line"] > 56), "Rest", data["status"])
     return data
 
+def analyze_metrics_by_status_period(data):
+    """
+    Analyze and compute metrics for each continuous period of a specific battery status.
+    Parameters:
+        data (dict): cell data 
+    Returns:
+        pd.DataFrame: DataFrame containing metrics for each status period.
+    """
+
+    # Identify changes in status to segment the data
+    data["status_change"] = (data["status"] != data["status"].shift()).cumsum()
+
+    # Group by status change segments
+    grouped = data.groupby("status_change")
+
+    results = []
+    for _, g in grouped:
+
+        subset = g.iloc[1:-1]  # Exclude first and last rows of each group
+
+        status = subset["status"].iloc[0]
+        start_time = subset["Time"].iloc[0]
+        end_time = subset["Time"].iloc[-1]
+        duration = end_time - start_time
+
+        avg_current = subset["I"].mean()
+        median_current = subset["I"].median()
+        std_current = subset["I"].std()
+
+        avg_tension = subset["U"].mean()
+        median_tension = subset["U"].median()
+        std_tension = subset["U"].std()
+
+        avg_temperature = subset["T1"].mean()
+        median_temperature = subset["T1"].median()
+        std_temperature = subset["T1"].std()
+
+        results.append({
+            "status": status,
+            "start_time": start_time,
+            "end_time": end_time,
+            "duration": duration,
+            "avg_current": avg_current,
+            #"median_current": median_current,
+            "std_current": std_current,
+            "avg_tension": avg_tension,
+            #"median_tension": median_tension,
+            "std_tension": std_tension,
+            "avg_temperature": avg_temperature,
+            #"median_temperature": median_temperature,
+            "std_temperature": std_temperature
+        })
+
+    return pd.DataFrame(results)
 
 def plot_battery_data(data, start=None, end=None):
     """
@@ -57,9 +124,6 @@ def plot_battery_data(data, start=None, end=None):
         start (float, optional): Start time for the plot. Default=None.
         end (float, optional): End time for the plot. Default=None.
     """
-    # Ensure the data is a DataFrame
-    columns = ["Time", "Line", "I", "U", "status"]
-    data = pd.DataFrame(data, columns=columns)
 
     # Filter data based on start and end time if provided
     if start is not None:
@@ -116,9 +180,6 @@ def plot_battery_status(data, start=None, end=None):
         start (float, optional): Start time for the plot. Default=None.
         end (float, optional): End time for the plot. Default=None.
     """
-    # Ensure the data is a DataFrame
-    columns = ["Time", "status"]
-    data = pd.DataFrame(data, columns=columns)
 
     # Filter by start and end time if provided
     if start is not None:
