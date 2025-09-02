@@ -143,40 +143,109 @@ def make_json_serializable(obj):
     # Return object unchanged if it's already JSON-serializable
     return obj
 
-def find_state(dataset:dict):
+def find_state(dataset:dict, eps:float):
+    """
+    Classify battery states for each checkup using derivative analysis and segment smoothing.
+    
+    This function performs advanced state classification by:
+    1. Calculating current and voltage derivatives
+    2. Classifying states based on derivative signs and commands
+    3. Smoothing classifications within segments (constant Line values)
+    
+    Args:
+        dataset (dict): Battery data organized by checkup names
+        eps (float): Threshold for relaxed sign classification of derivatives
+    
+    Returns:
+        dict: Advanced state classifications for each checkup
+    """
     advanced_state = {}
     
+    # Process each checkup (CU000, CU001, etc.) independently
     for checkup_name in dataset.keys():
         advanced_state[checkup_name] = []
         
         # Calculate derivatives of current and voltage with smoothing (window size = 5)
-        # Apply relaxed_sign function with threshold 0.2 to classify derivative signs
-        currents = np.vectorize(lambda x: relaxed_sign(x, 0.2))(derivative(dataset[checkup_name]["I"], 5))
-        tensions = np.vectorize(lambda x: relaxed_sign(x, 0.2))(derivative(dataset[checkup_name]["U"], 5))
+        # Apply relaxed_sign to classify derivatives as positive(1), negative(-1), or zero(0)
+        currents = np.vectorize(lambda x: relaxed_sign(x, eps))(derivative(dataset[checkup_name]["I"], 5))
+        tensions = np.vectorize(lambda x: relaxed_sign(x, eps))(derivative(dataset[checkup_name]["U"], 5))
         
-        # Verify that derivative arrays have the same length
+        # Verify that derivative arrays have the same length for consistency
         print(f"{checkup_name} {'OK' if len(currents) == len(tensions) else 'NOT OK'}")
         
+        # STEP 1: Initial state classification based on derivatives and commands
         # Classify each time point based on command state and derivative signs
         for current, tension, state in zip(currents, tensions, dataset[checkup_name]["Command"]):
             if state == "Pause":
-                cur = "REST"
+                cur = "REST"  # Battery at rest/pause
             elif state == "Charge":
-                if current == 0:  # Current derivative ≈ 0
+                if current == 0:  # Current derivative ≈ 0 (constant current)
                     cur = "CHARGE_CC"  # Constant current charging
-                elif tension == 0:  # Voltage derivative ≈ 0
+                elif tension == 0:  # Voltage derivative ≈ 0 (constant voltage)
                     cur = "CHARGE_CV"  # Constant voltage charging
                 else:
-                    cur = "CHARGE_DYNAMIC"  # Dynamic charging
+                    cur = "CHARGE_DYNAMIC"  # Dynamic charging (both I and U changing)
             else:  # Discharging
-                if current == 0:  # Current derivative ≈ 0
+                if current == 0:  # Current derivative ≈ 0 (constant current)
                     cur = "DISCHARGE_CC"  # Constant current discharging
-                elif tension == 0:  # Voltage derivative ≈ 0
+                elif tension == 0:  # Voltage derivative ≈ 0 (constant voltage)
                     cur = "DISCHARGE_CV"  # Constant voltage discharging
                 else:
                     cur = "DISCHARGE_DYNAMIC"  # Dynamic discharging
             
             # Add the classified state to the list
             advanced_state[checkup_name].append(cur)
+        
+        # STEP 2: Segment-based state smoothing
+        # Initialize counter dictionary to track state occurrences within segments
+        cur = {"REST": 0, "CHARGE_CC": 0, "CHARGE_CV": 0, "CHARGE_DYNAMIC": 0,
+               "DISCHARGE_CC": 0, "DISCHARGE_CV": 0, "DISCHARGE_DYNAMIC": 0}
+        
+        # Start counting with the first state in the sequence
+        cur[advanced_state[checkup_name][0]] = 1
+        
+        # Process each time point to detect segment boundaries and smooth within segments
+        for i in range(1, len(dataset[checkup_name]["Line"])):
+            # Check if we're still in the same segment (Line value hasn't changed)
+            if dataset[checkup_name]["Line"][i] == dataset[checkup_name]["Line"][i - 1]:
+                # Still in same segment - increment count for current state
+                cur[advanced_state[checkup_name][i]] += 1
+            else:
+                # Segment boundary detected - Line value changed
+                # STEP 2a: Find the most frequent state in the completed segment
+                most_frequent_label = max(cur, key=cur.get)
+                
+                # STEP 2b: Retroactively assign most frequent label to entire segment
+                # Start from the end of the segment and work backwards
+                advanced_state[checkup_name][i - 1] = most_frequent_label
+                for j in range(i - 2, -1, -1):  # Go backwards from i-2 to 0
+                    # Continue assigning if still in the same segment
+                    if dataset[checkup_name]["Line"][j] == dataset[checkup_name]["Line"][j + 1]:
+                        advanced_state[checkup_name][j] = most_frequent_label
+                    else:
+                        # Reached start of segment, stop
+                        break
+                
+                # STEP 2c: Reset counters for the new segment
+                # Initialize all counts to 0, then set current state to 1
+                for key in cur:
+                    if key == advanced_state[checkup_name][i]:
+                        cur[key] = 1  # Current state gets count of 1
+                    else:
+                        cur[key] = 0  # All other states get count of 0
+        
+        # STEP 3: Handle the final segment (no more Line changes after last point)
+        i = len(dataset[checkup_name]["Line"]) - 1  # Index of last element
+        most_frequent_label = max(cur, key=cur.get)  # Find most frequent in final segment
+        
+        # Assign most frequent label to the final segment
+        advanced_state[checkup_name][i] = most_frequent_label  # Set last element
+        for j in range(i - 1, -1, -1):  # Work backwards from second-to-last
+            # Continue assigning if still in the same segment
+            if dataset[checkup_name]["Line"][j] == dataset[checkup_name]["Line"][j + 1]:
+                advanced_state[checkup_name][j] = most_frequent_label
+            else:
+                # Reached start of final segment, stop
+                break
     
     return advanced_state
