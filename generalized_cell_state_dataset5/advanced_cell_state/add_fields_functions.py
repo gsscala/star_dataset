@@ -142,3 +142,41 @@ def make_json_serializable(obj):
     
     # Return object unchanged if it's already JSON-serializable
     return obj
+
+def find_state(dataset:dict):
+    advanced_state = {}
+    
+    for checkup_name in dataset.keys():
+        advanced_state[checkup_name] = []
+        
+        # Calculate derivatives of current and voltage with smoothing (window size = 5)
+        # Apply relaxed_sign function with threshold 0.2 to classify derivative signs
+        currents = np.vectorize(lambda x: relaxed_sign(x, 0.2))(derivative(dataset[checkup_name]["I"], 5))
+        tensions = np.vectorize(lambda x: relaxed_sign(x, 0.2))(derivative(dataset[checkup_name]["U"], 5))
+        
+        # Verify that derivative arrays have the same length
+        print(f"{checkup_name} {'OK' if len(currents) == len(tensions) else 'NOT OK'}")
+        
+        # Classify each time point based on command state and derivative signs
+        for current, tension, state in zip(currents, tensions, dataset[checkup_name]["Command"]):
+            if state == "Pause":
+                cur = "REST"
+            elif state == "Charge":
+                if current == 0:  # Current derivative ≈ 0
+                    cur = "CHARGE_CC"  # Constant current charging
+                elif tension == 0:  # Voltage derivative ≈ 0
+                    cur = "CHARGE_CV"  # Constant voltage charging
+                else:
+                    cur = "CHARGE_DYNAMIC"  # Dynamic charging
+            else:  # Discharging
+                if current == 0:  # Current derivative ≈ 0
+                    cur = "DISCHARGE_CC"  # Constant current discharging
+                elif tension == 0:  # Voltage derivative ≈ 0
+                    cur = "DISCHARGE_CV"  # Constant voltage discharging
+                else:
+                    cur = "DISCHARGE_DYNAMIC"  # Dynamic discharging
+            
+            # Add the classified state to the list
+            advanced_state[checkup_name].append(cur)
+    
+    return advanced_state
