@@ -75,16 +75,6 @@ def plot_battery_data(data, n_period=None, metrics=None):
     if end is not None:
         data = data[data["Time"] <= end]
 
-    # --- sanitise / sort data to avoid plotting artifacts ---
-    # ensure Time is numeric and sorted (prevents lines jumping when timestamps out of order)
-    data["Time"] = pd.to_numeric(data["Time"], errors="coerce")
-    data = data.sort_values("Time").reset_index(drop=True)
-
-    # ensure I and U are numeric
-    data["I"] = pd.to_numeric(data["I"], errors="coerce")
-    data["U"] = pd.to_numeric(data["U"], errors="coerce")
-    data["Line"] = pd.to_numeric(data["Line"], errors="coerce").fillna(method="ffill")
-
     # fixed order + fallback
     fixed_order = ["CV Discharge", "CC Discharge", "Rest", "CV Charge", "CC Charge", "Current Pulses"]
     present = list(data["status"].dropna().unique())
