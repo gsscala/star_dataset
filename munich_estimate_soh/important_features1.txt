@@ -1,0 +1,980 @@
+Rest1_avg_tension	0.9140111516936118
+Rest7_std_tension	0.008736769337340048
+CC Discharge4_std_current	0.007724254316957363
+CC Charge1_std_tension	0.005591848086503533
+Rest5_std_tension	0.005324849813010016
+CC Charge2_avg_current	0.0047349054912884875
+CC Charge3_avg_tension	0.004073133126396994
+CC Discharge4_avg_current	0.0039062100050028226
+CC Charge2_avg_tension	0.0029534832841116554
+CC Charge1_avg_tension	0.0028012687737656566
+CC Charge3_std_tension	0.0027478162097472826
+Rest6_std_tension	0.0025565005774381326
+Current Pulses1_std_current	0.0023264872410420686
+CV Charge2_std_tension	0.002256046741414287
+CC Charge2_std_tension	0.002072800599773609
+Rest1_std_tension	0.002064866815574177
+CC Discharge1_std_tension	0.001988978388787303
+Other1_avg_current	0.0017972327092623055
+Current Pulses3_std_tension	0.0014646438594795733
+CV Charge1_avg_current	0.0014641069537835569
+CC Discharge4_std_tension	0.0014244492172754081
+CV Charge3_avg_current	0.0013872117093922613
+CV Charge1_std_tension	0.0012776723254876074
+Rest2_avg_tension	0.0012377014003099188
+CC Discharge4_avg_tension	0.0011001707418057801
+CC Discharge2_std_tension	0.000876586015672078
+Current Pulses3_avg_tension	0.0008158790947871599
+CV Discharge2_avg_current	0.0006881745336636179
+Current Pulses1_avg_current	0.0006298189297114128
+CC Discharge1_avg_current	0.0006192378102538802
+Current Pulses2_avg_tension	0.0005925949910433641
+Other1_avg_tension	0.0005918452251451167
+CC Discharge1_avg_tension	0.0005867078119499313
+Rest6_avg_tension	0.0005632237674407758
+CV Charge2_std_current	0.0005350837246163174
+Current Pulses1_std_tension	0.0004904486298421346
+Current Pulses2_std_tension	0.00041169060911076013
+Rest2_std_tension	0.0003904758671565339
+Current Pulses2_avg_current	0.00038811825647735087
+CV Charge3_std_current	0.0003573167415364352
+CV Charge2_avg_current	0.0003260257136412801
+Rest5_avg_tension	0.0003083080275108432
+CC Discharge3_avg_current	0.0002817637424410198
+CV Discharge1_avg_current	0.00026907247926746114
+Rest4_std_tension	0.00022141674141890007
+CC Discharge5_avg_tension	0.00021959455523347718
+Rest3_avg_tension	0.00020698257384723764
+CC Discharge2_avg_tension	0.00020296902432106337
+CC Discharge3_avg_tension	0.0001765926564539369
+Current Pulses1_avg_tension	0.00017635427251579467
+Current Pulses3_avg_current	0.00017576700509625422
+Rest7_avg_tension	0.00017574157542968205
+CC Discharge2_avg_current	0.00017202604292280695
+Other1_std_current	0.0001397902094755216
+CV Discharge2_std_current	0.000131357972297558
+Other1_std_tension	0.0001264187877775433
+CV Charge1_std_current	0.00011179773619001393
+CV Charge1_avg_tension	9.616596463640131e-05
+Rest4_avg_tension	8.515323938877432e-05
+CC Discharge5_avg_current	7.547060357503391e-05
+CC Discharge3_std_tension	6.782542189159605e-05
+CV Discharge1_avg_tension	6.34596400766394e-05
+CV Discharge2_std_tension	5.851992957451235e-05
+CC Charge1_std_current	5.5086423792088364e-05
+CV Charge3_avg_tension	5.4999922937384185e-05
+CV Discharge1_std_current	5.495883962594194e-05
+CC Charge1_avg_current	5.429434010623641e-05
+CC Charge3_std_current	4.7364537355499916e-05
+CC Discharge5_std_tension	4.703290260528651e-05
+Rest3_std_tension	3.8290153765508845e-05
+CC Discharge2_std_current	3.540228037435695e-05
+CV Charge2_avg_tension	2.4548529233317275e-05
+CV Charge3_std_tension	2.2772488413320755e-05
+Current Pulses2_std_current	2.097890290848621e-05
+CC Discharge1_std_current	1.9644282733358905e-05
+CV Discharge1_std_tension	1.5707931299804968e-05
+CC Discharge3_std_current	1.5047681108159632e-05
+CC Charge2_std_current	1.400202041784551e-05
+CC Discharge5_std_current	1.3164247671010673e-05
+Current Pulses3_std_current	1.300277814034371e-05
+CC Charge3_avg_current	1.1978667492649945e-05
+CV Discharge2_avg_tension	1.1384926096951958e-05
+Current Pulses4_std_tension	1.6888152728534937e-09
+CC Discharge6_std_current	5.787685769102718e-10
+Rest4_avg_current	4.4868836723729813e-10
+CC Discharge6_std_tension	4.4677280508608215e-11
+1_std_current	1.929137792231058e-11
+1_avg_current	1.0317046608429861e-11
+1_avg_tension	8.478942440978451e-12
+Current Pulses4_avg_current	2.9063047129239213e-12
+CC Discharge6_avg_tension	2.7518596768593254e-14
+CC Discharge31_avg_tension	0.0
+CC Discharge31_avg_current	0.0
+Current Pulses43_std_tension	0.0
+Current Pulses43_avg_tension	0.0
+Current Pulses43_std_current	0.0
+Current Pulses43_avg_current	0.0
+Rest47_std_tension	0.0
+Rest47_avg_tension	0.0
+Rest47_std_current	0.0
+Rest47_avg_current	0.0
+CC Discharge31_std_current	0.0
+CC Discharge31_std_tension	0.0
+Rest49_std_current	0.0
+CC Discharge32_std_tension	0.0
+CC Discharge32_avg_tension	0.0
+CC Discharge32_std_current	0.0
+CC Discharge32_avg_current	0.0
+Current Pulses44_std_tension	0.0
+Current Pulses44_avg_tension	0.0
+Current Pulses44_std_current	0.0
+Current Pulses44_avg_current	0.0
+Rest48_avg_current	0.0
+Rest48_std_current	0.0
+Rest48_std_tension	0.0
+Rest48_avg_tension	0.0
+CV Charge17_std_tension	0.0
+Rest45_avg_tension	0.0
+Current Pulses41_avg_current	0.0
+Current Pulses41_std_current	0.0
+Current Pulses41_avg_tension	0.0
+Current Pulses41_std_tension	0.0
+CC Discharge30_avg_current	0.0
+CC Discharge30_std_current	0.0
+CC Discharge30_avg_tension	0.0
+CC Discharge30_std_tension	0.0
+Rest46_avg_current	0.0
+Rest46_std_current	0.0
+Rest46_avg_tension	0.0
+Rest46_std_tension	0.0
+Rest49_avg_current	0.0
+Current Pulses42_std_current	0.0
+Current Pulses42_avg_tension	0.0
+Current Pulses42_std_tension	0.0
+Other14_avg_current	0.0
+Other14_std_current	0.0
+Other14_avg_tension	0.0
+Other14_std_tension	0.0
+CC Charge17_avg_current	0.0
+CC Charge17_std_current	0.0
+CC Charge17_avg_tension	0.0
+CC Charge17_std_tension	0.0
+CV Charge17_avg_current	0.0
+CV Charge17_std_current	0.0
+CV Charge17_avg_tension	0.0
+Current Pulses42_avg_current	0.0
+CC Discharge33_avg_tension	0.0
+CC Discharge33_std_tension	0.0
+Rest51_avg_current	0.0
+Rest51_std_current	0.0
+Rest51_avg_tension	0.0
+Rest51_std_tension	0.0
+Current Pulses47_avg_current	0.0
+Current Pulses47_std_current	0.0
+Current Pulses47_avg_tension	0.0
+Current Pulses47_std_tension	0.0
+CC Discharge34_avg_current	0.0
+CC Discharge34_std_current	0.0
+Rest45_std_tension	0.0
+CC Discharge34_std_tension	0.0
+Rest52_avg_current	0.0
+Rest52_std_current	0.0
+Rest52_avg_tension	0.0
+Rest52_std_tension	0.0
+Current Pulses48_avg_current	0.0
+Current Pulses48_std_current	0.0
+Current Pulses48_avg_tension	0.0
+Current Pulses48_std_tension	0.0
+Other16_avg_current	0.0
+Other16_std_current	0.0
+Other16_avg_tension	0.0
+CC Charge19_avg_current	0.0
+CC Discharge34_avg_tension	0.0
+Rest49_avg_tension	0.0
+Rest49_std_tension	0.0
+Current Pulses45_avg_current	0.0
+Current Pulses45_std_current	0.0
+Current Pulses45_avg_tension	0.0
+Current Pulses45_std_tension	0.0
+Other15_avg_current	0.0
+Other15_std_current	0.0
+Other15_avg_tension	0.0
+Other15_std_tension	0.0
+CC Charge18_avg_current	0.0
+CC Charge18_std_current	0.0
+CC Charge18_avg_tension	0.0
+CC Discharge33_std_current	0.0
+CV Charge18_avg_current	0.0
+CV Charge18_std_current	0.0
+CV Charge18_avg_tension	0.0
+CV Charge18_std_tension	0.0
+Rest50_avg_current	0.0
+Rest50_std_current	0.0
+Rest50_avg_tension	0.0
+Rest50_std_tension	0.0
+Current Pulses46_avg_current	0.0
+Current Pulses46_std_current	0.0
+Current Pulses46_avg_tension	0.0
+Current Pulses46_std_tension	0.0
+CC Discharge33_avg_current	0.0
+CC Charge18_std_tension	0.0
+CC Discharge26_std_current	0.0
+CC Discharge26_avg_tension	0.0
+CC Discharge26_std_tension	0.0
+Rest40_avg_current	0.0
+Rest40_std_current	0.0
+Rest40_avg_tension	0.0
+Rest40_std_tension	0.0
+Current Pulses36_avg_current	0.0
+Current Pulses36_std_current	0.0
+Current Pulses36_avg_tension	0.0
+Current Pulses36_std_tension	0.0
+Other12_avg_current	0.0
+Other16_std_tension	0.0
+Other12_avg_tension	0.0
+Other12_std_tension	0.0
+CC Charge15_avg_current	0.0
+CC Charge15_std_current	0.0
+CC Charge15_avg_tension	0.0
+CC Charge15_std_tension	0.0
+CV Charge15_avg_current	0.0
+CV Charge15_std_current	0.0
+CV Charge15_avg_tension	0.0
+CV Charge15_std_tension	0.0
+Rest41_avg_current	0.0
+Rest41_std_current	0.0
+Rest41_avg_tension	0.0
+Other12_std_current	0.0
+CC Charge14_avg_current	0.0
+CC Charge14_avg_tension	0.0
+CC Charge14_std_tension	0.0
+CV Charge14_avg_current	0.0
+CV Charge14_std_current	0.0
+CV Charge14_avg_tension	0.0
+CV Charge14_std_tension	0.0
+Rest38_avg_current	0.0
+Rest38_std_current	0.0
+Rest38_avg_tension	0.0
+Rest38_std_tension	0.0
+Current Pulses34_avg_current	0.0
+Current Pulses34_std_current	0.0
+CC Discharge26_avg_current	0.0
+Current Pulses34_std_tension	0.0
+CC Discharge25_avg_current	0.0
+CC Discharge25_std_current	0.0
+CC Discharge25_avg_tension	0.0
+CC Discharge25_std_tension	0.0
+Rest39_avg_current	0.0
+Rest39_std_current	0.0
+Rest39_avg_tension	0.0
+Rest39_std_tension	0.0
+Current Pulses35_avg_current	0.0
+Current Pulses35_std_current	0.0
+Current Pulses35_avg_tension	0.0
+Current Pulses35_std_tension	0.0
+Current Pulses34_avg_tension	0.0
+Other13_avg_current	0.0
+Other13_std_current	0.0
+Other13_avg_tension	0.0
+Other13_std_tension	0.0
+CC Charge16_avg_current	0.0
+CC Charge16_std_current	0.0
+CC Charge16_avg_tension	0.0
+CC Charge16_std_tension	0.0
+CV Charge16_avg_current	0.0
+CV Charge16_std_current	0.0
+CV Charge16_avg_tension	0.0
+CV Charge16_std_tension	0.0
+Rest41_std_tension	0.0
+Rest44_std_current	0.0
+Rest44_avg_tension	0.0
+Rest44_std_tension	0.0
+Current Pulses40_avg_current	0.0
+Current Pulses40_std_current	0.0
+Current Pulses40_avg_tension	0.0
+Current Pulses40_std_tension	0.0
+CC Discharge29_avg_current	0.0
+CC Discharge29_std_current	0.0
+CC Discharge29_avg_tension	0.0
+CC Discharge29_std_tension	0.0
+Rest45_avg_current	0.0
+Rest45_std_current	0.0
+Rest44_avg_current	0.0
+Current Pulses37_avg_current	0.0
+Current Pulses37_std_current	0.0
+Current Pulses37_avg_tension	0.0
+Current Pulses37_std_tension	0.0
+CC Discharge27_avg_current	0.0
+CC Discharge27_std_current	0.0
+CC Discharge27_avg_tension	0.0
+CC Discharge27_std_tension	0.0
+Rest42_avg_current	0.0
+Rest42_std_current	0.0
+Rest42_avg_tension	0.0
+Rest42_std_tension	0.0
+Current Pulses38_avg_current	0.0
+Current Pulses39_std_tension	0.0
+Current Pulses38_avg_tension	0.0
+Current Pulses38_std_tension	0.0
+CC Discharge28_avg_current	0.0
+CC Discharge28_std_current	0.0
+CC Discharge28_avg_tension	0.0
+CC Discharge28_std_tension	0.0
+Rest43_avg_current	0.0
+Rest43_std_current	0.0
+Rest43_avg_tension	0.0
+Rest43_std_tension	0.0
+Current Pulses39_avg_current	0.0
+Current Pulses39_std_current	0.0
+Current Pulses39_avg_tension	0.0
+Current Pulses38_std_current	0.0
+Rest62_avg_current	0.0
+Rest62_std_current	0.0
+Rest62_avg_tension	0.0
+Rest62_std_tension	0.0
+Current Pulses58_avg_current	0.0
+Current Pulses58_std_current	0.0
+Current Pulses58_avg_tension	0.0
+Current Pulses58_std_tension	0.0
+CC Discharge41_avg_current	0.0
+CC Discharge41_std_current	0.0
+CC Discharge41_avg_tension	0.0
+CC Discharge41_std_tension	0.0
+CC Charge14_std_current	0.0
+Rest63_std_current	0.0
+Rest63_avg_tension	0.0
+Rest63_std_tension	0.0
+Current Pulses59_avg_current	0.0
+Current Pulses59_std_current	0.0
+Current Pulses59_avg_tension	0.0
+Current Pulses59_std_tension	0.0
+CC Discharge42_avg_current	0.0
+CC Discharge42_std_current	0.0
+CC Discharge42_avg_tension	0.0
+CC Discharge42_std_tension	0.0
+Rest64_avg_current	0.0
+Rest64_std_current	0.0
+Rest63_avg_current	0.0
+Current Pulses56_avg_current	0.0
+Current Pulses56_std_current	0.0
+Current Pulses56_avg_tension	0.0
+Current Pulses56_std_tension	0.0
+CC Discharge40_avg_current	0.0
+CC Discharge40_std_current	0.0
+CC Discharge40_avg_tension	0.0
+CC Discharge40_std_tension	0.0
+Rest61_avg_current	0.0
+Rest61_std_current	0.0
+Rest61_avg_tension	0.0
+Rest61_std_tension	0.0
+Current Pulses57_avg_current	0.0
+CV Charge22_std_tension	0.0
+Current Pulses57_avg_tension	0.0
+Current Pulses57_std_tension	0.0
+Other19_avg_current	0.0
+Other19_std_current	0.0
+Other19_avg_tension	0.0
+Other19_std_tension	0.0
+CC Charge22_avg_current	0.0
+CC Charge22_std_current	0.0
+CC Charge22_avg_tension	0.0
+CC Charge22_std_tension	0.0
+CV Charge22_avg_current	0.0
+CV Charge22_std_current	0.0
+CV Charge22_avg_tension	0.0
+Current Pulses57_std_current	0.0
+Rest66_std_current	0.0
+Rest66_avg_tension	0.0
+Rest66_std_tension	0.0
+Current Pulses62_avg_current	0.0
+Current Pulses62_std_current	0.0
+Current Pulses62_avg_tension	0.0
+CC Discharge44_avg_current	0.0
+CC Discharge44_std_current	0.0
+CC Discharge44_avg_tension	0.0
+CC Discharge44_std_tension	0.0
+Rest67_avg_current	0.0
+Rest67_std_current	0.0
+Rest64_avg_tension	0.0
+Rest67_std_tension	0.0
+Current Pulses63_avg_current	0.0
+Current Pulses63_std_current	0.0
+Current Pulses63_avg_tension	0.0
+Current Pulses63_std_tension	0.0
+Other21_avg_current	0.0
+Other21_std_current	0.0
+Other21_avg_tension	0.0
+Other21_std_tension	0.0
+CC Charge24_avg_current	0.0
+CC Charge24_std_current	0.0
+CC Charge24_avg_tension	0.0
+CC Charge24_std_tension	0.0
+Rest67_avg_tension	0.0
+Rest64_std_tension	0.0
+Current Pulses60_avg_current	0.0
+Current Pulses60_std_current	0.0
+Current Pulses60_avg_tension	0.0
+Other20_avg_current	0.0
+Other20_std_current	0.0
+Other20_avg_tension	0.0
+Other20_std_tension	0.0
+CC Charge23_avg_current	0.0
+CC Charge23_std_current	0.0
+CC Charge23_avg_tension	0.0
+CC Charge23_std_tension	0.0
+CV Charge23_avg_current	0.0
+Rest66_avg_current	0.0
+CV Charge23_avg_tension	0.0
+CV Charge23_std_tension	0.0
+Rest65_avg_current	0.0
+Rest65_std_current	0.0
+Rest65_avg_tension	0.0
+Rest65_std_tension	0.0
+Current Pulses61_avg_current	0.0
+Current Pulses61_std_current	0.0
+Current Pulses61_avg_tension	0.0
+Current Pulses61_std_tension	0.0
+CC Discharge43_avg_current	0.0
+CC Discharge43_std_current	0.0
+CC Discharge43_avg_tension	0.0
+CV Charge23_std_current	0.0
+CC Discharge36_std_current	0.0
+CC Discharge36_avg_tension	0.0
+CC Discharge36_std_tension	0.0
+Rest55_avg_current	0.0
+Rest55_std_current	0.0
+Rest55_avg_tension	0.0
+Rest55_std_tension	0.0
+Current Pulses51_avg_current	0.0
+Current Pulses51_std_current	0.0
+Current Pulses51_avg_tension	0.0
+Current Pulses51_std_tension	0.0
+Other17_avg_current	0.0
+Rest60_std_tension	0.0
+Other17_avg_tension	0.0
+Other17_std_tension	0.0
+CC Charge20_avg_current	0.0
+CC Charge20_std_current	0.0
+CC Charge20_avg_tension	0.0
+CC Charge20_std_tension	0.0
+CV Charge20_avg_current	0.0
+CV Charge20_std_current	0.0
+CV Charge20_avg_tension	0.0
+CV Charge20_std_tension	0.0
+Rest56_avg_current	0.0
+Rest56_std_current	0.0
+Rest56_avg_tension	0.0
+Other17_std_current	0.0
+CC Charge19_std_current	0.0
+CC Charge19_avg_tension	0.0
+CC Charge19_std_tension	0.0
+CV Charge19_avg_current	0.0
+CV Charge19_std_current	0.0
+CV Charge19_avg_tension	0.0
+CV Charge19_std_tension	0.0
+Rest53_avg_current	0.0
+Rest53_std_current	0.0
+Rest53_avg_tension	0.0
+Rest53_std_tension	0.0
+Current Pulses49_avg_current	0.0
+Current Pulses49_std_current	0.0
+CC Discharge36_avg_current	0.0
+Current Pulses49_std_tension	0.0
+CC Discharge35_avg_current	0.0
+CC Discharge35_std_current	0.0
+CC Discharge35_avg_tension	0.0
+CC Discharge35_std_tension	0.0
+Rest54_avg_current	0.0
+Rest54_std_current	0.0
+Rest54_avg_tension	0.0
+Rest54_std_tension	0.0
+Current Pulses50_avg_current	0.0
+Current Pulses50_std_current	0.0
+Current Pulses50_avg_tension	0.0
+Current Pulses50_std_tension	0.0
+Current Pulses49_avg_tension	0.0
+Other18_avg_current	0.0
+Other18_std_current	0.0
+Other18_avg_tension	0.0
+Other18_std_tension	0.0
+CC Charge21_avg_current	0.0
+CC Charge21_std_current	0.0
+CC Charge21_avg_tension	0.0
+CC Charge21_std_tension	0.0
+CV Charge21_avg_current	0.0
+CV Charge21_std_current	0.0
+CV Charge21_avg_tension	0.0
+CV Charge21_std_tension	0.0
+Rest59_avg_current	0.0
+Rest56_std_tension	0.0
+Rest59_avg_tension	0.0
+Rest59_std_tension	0.0
+Current Pulses55_avg_current	0.0
+Current Pulses55_std_current	0.0
+Current Pulses55_avg_tension	0.0
+Current Pulses55_std_tension	0.0
+CC Discharge39_avg_current	0.0
+CC Discharge39_std_current	0.0
+CC Discharge39_avg_tension	0.0
+CC Discharge39_std_tension	0.0
+Rest60_avg_current	0.0
+Rest60_std_current	0.0
+Rest60_avg_tension	0.0
+Rest59_std_current	0.0
+Current Pulses52_avg_current	0.0
+Current Pulses52_std_current	0.0
+Current Pulses52_avg_tension	0.0
+Current Pulses52_std_tension	0.0
+CC Discharge37_avg_current	0.0
+CC Discharge37_std_current	0.0
+CC Discharge37_avg_tension	0.0
+CC Discharge37_std_tension	0.0
+Rest57_avg_current	0.0
+Rest57_std_current	0.0
+Rest57_avg_tension	0.0
+Rest57_std_tension	0.0
+Current Pulses53_avg_current	0.0
+Current Pulses54_std_tension	0.0
+Current Pulses53_avg_tension	0.0
+Current Pulses53_std_tension	0.0
+CC Discharge38_avg_current	0.0
+CC Discharge38_std_current	0.0
+CC Discharge38_avg_tension	0.0
+CC Discharge38_std_tension	0.0
+Rest58_avg_current	0.0
+Rest58_std_current	0.0
+Rest58_avg_tension	0.0
+Rest58_std_tension	0.0
+Current Pulses54_avg_current	0.0
+Current Pulses54_std_current	0.0
+Current Pulses54_avg_tension	0.0
+Current Pulses53_std_current	0.0
+CC Charge7_avg_current	0.0
+CC Charge7_std_current	0.0
+CC Charge7_avg_tension	0.0
+CC Charge7_std_tension	0.0
+CV Charge7_avg_current	0.0
+CV Charge7_std_current	0.0
+CV Charge7_avg_tension	0.0
+CV Charge7_std_tension	0.0
+Rest17_avg_current	0.0
+Rest17_std_current	0.0
+Rest17_avg_tension	0.0
+Rest17_std_tension	0.0
+Current Pulses13_avg_current	0.0
+CC Charge13_std_current	0.0
+Current Pulses13_avg_tension	0.0
+Current Pulses13_std_tension	0.0
+CC Discharge11_avg_current	0.0
+CC Discharge11_std_current	0.0
+CC Discharge11_avg_tension	0.0
+CC Discharge11_std_tension	0.0
+Rest18_avg_current	0.0
+Rest18_std_current	0.0
+Rest18_avg_tension	0.0
+Rest18_std_tension	0.0
+Current Pulses14_avg_current	0.0
+Current Pulses14_std_current	0.0
+Current Pulses14_avg_tension	0.0
+Current Pulses13_std_current	0.0
+CC Discharge9_avg_current	0.0
+CC Discharge9_std_current	0.0
+CC Discharge9_avg_tension	0.0
+CC Discharge9_std_tension	0.0
+Rest15_avg_current	0.0
+Rest15_std_current	0.0
+Rest15_avg_tension	0.0
+Rest15_std_tension	0.0
+Current Pulses11_avg_current	0.0
+Current Pulses11_std_current	0.0
+Current Pulses11_avg_tension	0.0
+Current Pulses11_std_tension	0.0
+CC Discharge10_avg_current	0.0
+Other4_std_tension	0.0
+CC Discharge10_avg_tension	0.0
+CC Discharge10_std_tension	0.0
+Rest16_avg_current	0.0
+Rest16_std_current	0.0
+Rest16_avg_tension	0.0
+Rest16_std_tension	0.0
+Current Pulses12_avg_current	0.0
+Current Pulses12_std_current	0.0
+Current Pulses12_avg_tension	0.0
+Current Pulses12_std_tension	0.0
+Other4_avg_current	0.0
+Other4_std_current	0.0
+Other4_avg_tension	0.0
+CC Discharge10_std_current	0.0
+Current Pulses16_avg_current	0.0
+Current Pulses16_std_current	0.0
+Current Pulses16_avg_tension	0.0
+Current Pulses16_std_tension	0.0
+CC Discharge13_avg_current	0.0
+CC Discharge13_std_current	0.0
+CC Discharge13_avg_tension	0.0
+CC Discharge13_std_tension	0.0
+Rest21_avg_current	0.0
+Rest21_std_current	0.0
+Rest21_avg_tension	0.0
+Rest21_std_tension	0.0
+Current Pulses17_avg_current	0.0
+Current Pulses14_std_tension	0.0
+Current Pulses17_avg_tension	0.0
+Current Pulses17_std_tension	0.0
+CC Discharge14_avg_current	0.0
+CC Discharge14_std_current	0.0
+CC Discharge14_avg_tension	0.0
+CC Discharge14_std_tension	0.0
+Rest22_avg_current	0.0
+Rest22_std_current	0.0
+Rest22_avg_tension	0.0
+Rest22_std_tension	0.0
+Current Pulses18_avg_current	0.0
+Current Pulses18_std_current	0.0
+Current Pulses18_avg_tension	0.0
+Current Pulses17_std_current	0.0
+CC Discharge12_avg_current	0.0
+CC Discharge12_std_current	0.0
+CC Discharge12_avg_tension	0.0
+CC Discharge12_std_tension	0.0
+Rest19_avg_current	0.0
+Rest19_std_current	0.0
+Rest19_avg_tension	0.0
+Rest19_std_tension	0.0
+Current Pulses15_avg_current	0.0
+Current Pulses15_std_current	0.0
+Current Pulses15_avg_tension	0.0
+Current Pulses15_std_tension	0.0
+Other5_avg_current	0.0
+Rest20_std_tension	0.0
+Other5_avg_tension	0.0
+Other5_std_tension	0.0
+CC Charge8_avg_current	0.0
+CC Charge8_std_current	0.0
+CC Charge8_avg_tension	0.0
+CC Charge8_std_tension	0.0
+CV Charge8_avg_current	0.0
+CV Charge8_std_current	0.0
+CV Charge8_avg_tension	0.0
+CV Charge8_std_tension	0.0
+Rest20_avg_current	0.0
+Rest20_std_current	0.0
+Rest20_avg_tension	0.0
+Other5_std_current	0.0
+Rest8_avg_tension	0.0
+Rest8_std_tension	0.0
+Current Pulses4_std_current	0.0
+Current Pulses4_avg_tension	0.0
+Rest9_avg_current	0.0
+Rest9_std_current	0.0
+Rest9_avg_tension	0.0
+Rest9_std_tension	0.0
+Current Pulses5_avg_current	0.0
+Current Pulses5_std_current	0.0
+Current Pulses5_avg_tension	0.0
+Current Pulses5_std_tension	0.0
+Rest10_avg_current	0.0
+Current Pulses10_std_tension	0.0
+Rest10_avg_tension	0.0
+Rest10_std_tension	0.0
+Current Pulses6_avg_current	0.0
+Current Pulses6_std_current	0.0
+Current Pulses6_avg_tension	0.0
+Current Pulses6_std_tension	0.0
+Other2_avg_current	0.0
+Other2_std_current	0.0
+Other2_avg_tension	0.0
+Other2_std_tension	0.0
+CC Charge5_avg_current	0.0
+CC Charge5_std_current	0.0
+CC Charge5_avg_tension	0.0
+Rest10_std_current	0.0
+Rest2_avg_current	0.0
+Rest2_std_current	0.0
+Current Pulses60_std_tension	0.0
+Current Pulses62_std_tension	0.0
+CC Discharge43_std_tension	0.0
+1_std_tension	0.0
+Rest1_avg_current	0.0
+Rest1_std_current	0.0
+Rest3_avg_current	0.0
+Rest3_std_current	0.0
+Rest4_std_current	0.0
+Rest5_avg_current	0.0
+Rest5_std_current	0.0
+Rest8_std_current	0.0
+Rest6_std_current	0.0
+Rest7_avg_current	0.0
+Rest7_std_current	0.0
+CC Discharge6_avg_current	0.0
+CC Charge4_avg_current	0.0
+CC Charge4_std_current	0.0
+CC Charge4_avg_tension	0.0
+CC Charge4_std_tension	0.0
+CV Charge4_avg_current	0.0
+CV Charge4_std_current	0.0
+CV Charge4_avg_tension	0.0
+CV Charge4_std_tension	0.0
+Rest8_avg_current	0.0
+Rest6_avg_current	0.0
+Rest13_avg_current	0.0
+Rest13_std_current	0.0
+Rest13_avg_tension	0.0
+Rest13_std_tension	0.0
+Current Pulses9_avg_current	0.0
+Current Pulses9_std_current	0.0
+Current Pulses9_avg_tension	0.0
+Current Pulses9_std_tension	0.0
+Other3_avg_current	0.0
+Other3_std_current	0.0
+Other3_avg_tension	0.0
+Other3_std_tension	0.0
+CC Charge6_avg_current	0.0
+CC Charge5_std_tension	0.0
+CC Charge6_avg_tension	0.0
+CC Charge6_std_tension	0.0
+CV Charge6_avg_current	0.0
+CV Charge6_std_current	0.0
+CV Charge6_avg_tension	0.0
+CV Charge6_std_tension	0.0
+Rest14_avg_current	0.0
+Rest14_std_current	0.0
+Rest14_avg_tension	0.0
+Rest14_std_tension	0.0
+Current Pulses10_avg_current	0.0
+Current Pulses10_std_current	0.0
+Current Pulses10_avg_tension	0.0
+CC Charge6_std_current	0.0
+CV Charge5_avg_current	0.0
+CV Charge5_std_current	0.0
+CV Charge5_avg_tension	0.0
+CV Charge5_std_tension	0.0
+Rest11_avg_current	0.0
+Rest11_std_current	0.0
+Rest11_avg_tension	0.0
+Rest11_std_tension	0.0
+Current Pulses7_avg_current	0.0
+Current Pulses7_std_current	0.0
+Current Pulses7_avg_tension	0.0
+Current Pulses7_std_tension	0.0
+CC Discharge7_avg_current	0.0
+CC Discharge8_std_tension	0.0
+CC Discharge7_avg_tension	0.0
+CC Discharge7_std_tension	0.0
+Rest12_avg_current	0.0
+Rest12_std_current	0.0
+Rest12_avg_tension	0.0
+Rest12_std_tension	0.0
+Current Pulses8_avg_current	0.0
+Current Pulses8_std_current	0.0
+Current Pulses8_avg_tension	0.0
+Current Pulses8_std_tension	0.0
+CC Discharge8_avg_current	0.0
+CC Discharge8_std_current	0.0
+CC Discharge8_avg_tension	0.0
+CC Discharge7_std_current	0.0
+CV Charge12_avg_current	0.0
+CV Charge12_std_current	0.0
+CV Charge12_avg_tension	0.0
+CV Charge12_std_tension	0.0
+Rest32_avg_current	0.0
+Rest32_std_current	0.0
+Rest32_avg_tension	0.0
+Rest32_std_tension	0.0
+Current Pulses28_avg_current	0.0
+Current Pulses28_std_current	0.0
+Current Pulses28_avg_tension	0.0
+Current Pulses28_std_tension	0.0
+CC Discharge21_avg_current	0.0
+Current Pulses18_std_tension	0.0
+CC Discharge21_avg_tension	0.0
+CC Discharge21_std_tension	0.0
+Rest33_avg_current	0.0
+Rest33_std_current	0.0
+Rest33_avg_tension	0.0
+Rest33_std_tension	0.0
+Current Pulses29_avg_current	0.0
+Current Pulses29_std_current	0.0
+Current Pulses29_avg_tension	0.0
+Current Pulses29_std_tension	0.0
+CC Discharge22_avg_current	0.0
+CC Discharge22_std_current	0.0
+CC Discharge22_avg_tension	0.0
+CC Discharge21_std_current	0.0
+Rest30_avg_current	0.0
+Rest30_std_current	0.0
+Rest30_avg_tension	0.0
+Rest30_std_tension	0.0
+Current Pulses26_avg_current	0.0
+Current Pulses26_std_current	0.0
+Current Pulses26_avg_tension	0.0
+Current Pulses26_std_tension	0.0
+CC Discharge20_avg_current	0.0
+CC Discharge20_std_current	0.0
+CC Discharge20_avg_tension	0.0
+CC Discharge20_std_tension	0.0
+Rest31_avg_current	0.0
+CC Charge12_std_tension	0.0
+Rest31_avg_tension	0.0
+Rest31_std_tension	0.0
+Current Pulses27_avg_current	0.0
+Current Pulses27_std_current	0.0
+Current Pulses27_avg_tension	0.0
+Current Pulses27_std_tension	0.0
+Other9_avg_current	0.0
+Other9_std_current	0.0
+Other9_avg_tension	0.0
+Other9_std_tension	0.0
+CC Charge12_avg_current	0.0
+CC Charge12_std_current	0.0
+CC Charge12_avg_tension	0.0
+Rest31_std_current	0.0
+CC Discharge23_std_current	0.0
+CC Discharge23_avg_tension	0.0
+CC Discharge23_std_tension	0.0
+Rest36_avg_current	0.0
+Rest36_std_current	0.0
+Rest36_avg_tension	0.0
+Rest36_std_tension	0.0
+Current Pulses32_avg_current	0.0
+Current Pulses32_std_current	0.0
+Current Pulses32_avg_tension	0.0
+Current Pulses32_std_tension	0.0
+CC Discharge24_avg_current	0.0
+CC Discharge24_std_current	0.0
+CC Discharge22_std_tension	0.0
+CC Discharge24_std_tension	0.0
+Rest37_avg_current	0.0
+Rest37_std_current	0.0
+Rest37_avg_tension	0.0
+Rest37_std_tension	0.0
+Current Pulses33_avg_current	0.0
+Current Pulses33_std_current	0.0
+Current Pulses33_avg_tension	0.0
+Current Pulses33_std_tension	0.0
+Other11_avg_current	0.0
+Other11_std_current	0.0
+Other11_avg_tension	0.0
+Other11_std_tension	0.0
+CC Discharge24_avg_tension	0.0
+Rest34_avg_current	0.0
+Rest34_std_current	0.0
+Rest34_avg_tension	0.0
+Rest34_std_tension	0.0
+Current Pulses30_avg_current	0.0
+Current Pulses30_std_current	0.0
+Current Pulses30_avg_tension	0.0
+Current Pulses30_std_tension	0.0
+Other10_avg_current	0.0
+Other10_std_current	0.0
+Other10_avg_tension	0.0
+Other10_std_tension	0.0
+CC Charge13_avg_current	0.0
+CC Discharge23_avg_current	0.0
+CC Charge13_std_tension	0.0
+CV Charge13_avg_current	0.0
+CV Charge13_std_current	0.0
+CV Charge13_avg_tension	0.0
+CV Charge13_std_tension	0.0
+Rest35_avg_current	0.0
+Rest35_std_current	0.0
+Rest35_avg_tension	0.0
+Rest35_std_tension	0.0
+Current Pulses31_avg_current	0.0
+Current Pulses31_std_current	0.0
+Current Pulses31_avg_tension	0.0
+Current Pulses31_std_tension	0.0
+CC Charge13_avg_tension	0.0
+Current Pulses20_avg_current	0.0
+Current Pulses20_std_current	0.0
+Current Pulses20_avg_tension	0.0
+Current Pulses20_std_tension	0.0
+CC Discharge16_avg_current	0.0
+CC Discharge16_std_current	0.0
+CC Discharge16_avg_tension	0.0
+CC Discharge16_std_tension	0.0
+Rest25_avg_current	0.0
+Rest25_std_current	0.0
+Rest25_avg_tension	0.0
+Rest25_std_tension	0.0
+Current Pulses21_avg_current	0.0
+CC Discharge19_std_tension	0.0
+Current Pulses21_avg_tension	0.0
+Current Pulses21_std_tension	0.0
+Other7_avg_current	0.0
+Other7_std_current	0.0
+Other7_avg_tension	0.0
+Other7_std_tension	0.0
+CC Charge10_avg_current	0.0
+CC Charge10_std_current	0.0
+CC Charge10_avg_tension	0.0
+CC Charge10_std_tension	0.0
+CV Charge10_avg_current	0.0
+CV Charge10_std_current	0.0
+CV Charge10_avg_tension	0.0
+Current Pulses21_std_current	0.0
+Other6_avg_current	0.0
+Other6_std_current	0.0
+Other6_avg_tension	0.0
+Other6_std_tension	0.0
+CC Charge9_avg_current	0.0
+CC Charge9_std_current	0.0
+CC Charge9_avg_tension	0.0
+CC Charge9_std_tension	0.0
+CV Charge9_avg_current	0.0
+CV Charge9_std_current	0.0
+CV Charge9_avg_tension	0.0
+CV Charge9_std_tension	0.0
+Rest23_avg_current	0.0
+Rest24_std_tension	0.0
+Rest23_avg_tension	0.0
+Rest23_std_tension	0.0
+Current Pulses19_avg_current	0.0
+Current Pulses19_std_current	0.0
+Current Pulses19_avg_tension	0.0
+Current Pulses19_std_tension	0.0
+CC Discharge15_avg_current	0.0
+CC Discharge15_std_current	0.0
+CC Discharge15_avg_tension	0.0
+CC Discharge15_std_tension	0.0
+Rest24_avg_current	0.0
+Rest24_std_current	0.0
+Rest24_avg_tension	0.0
+Rest23_std_current	0.0
+Current Pulses24_avg_current	0.0
+Current Pulses24_std_current	0.0
+Current Pulses24_avg_tension	0.0
+Current Pulses24_std_tension	0.0
+Other8_avg_current	0.0
+Other8_std_current	0.0
+Other8_avg_tension	0.0
+Other8_std_tension	0.0
+CC Charge11_avg_current	0.0
+CC Charge11_std_current	0.0
+CC Charge11_avg_tension	0.0
+CC Charge11_std_tension	0.0
+CV Charge11_avg_current	0.0
+CV Charge10_std_tension	0.0
+CV Charge11_avg_tension	0.0
+CV Charge11_std_tension	0.0
+Rest29_avg_current	0.0
+Rest29_std_current	0.0
+Rest29_avg_tension	0.0
+Rest29_std_tension	0.0
+Current Pulses25_avg_current	0.0
+Current Pulses25_std_current	0.0
+Current Pulses25_avg_tension	0.0
+Current Pulses25_std_tension	0.0
+CC Discharge19_avg_current	0.0
+CC Discharge19_std_current	0.0
+CC Discharge19_avg_tension	0.0
+CV Charge11_std_current	0.0
+Rest26_avg_current	0.0
+Rest26_std_current	0.0
+Rest26_avg_tension	0.0
+Rest26_std_tension	0.0
+Current Pulses22_avg_current	0.0
+Current Pulses22_std_current	0.0
+Current Pulses22_avg_tension	0.0
+Current Pulses22_std_tension	0.0
+CC Discharge17_avg_current	0.0
+CC Discharge17_std_current	0.0
+CC Discharge17_avg_tension	0.0
+CC Discharge17_std_tension	0.0
+Rest27_avg_current	0.0
+Rest28_std_tension	0.0
+Rest27_avg_tension	0.0
+Rest27_std_tension	0.0
+Current Pulses23_avg_current	0.0
+Current Pulses23_std_current	0.0
+Current Pulses23_avg_tension	0.0
+Current Pulses23_std_tension	0.0
+CC Discharge18_avg_current	0.0
+CC Discharge18_std_current	0.0
+CC Discharge18_avg_tension	0.0
+CC Discharge18_std_tension	0.0
+Rest28_avg_current	0.0
+Rest28_std_current	0.0
+Rest28_avg_tension	0.0
+Rest27_std_current	0.0

@@ -1,0 +1,32 @@
+Rest_avg_tension	0.7818571569396602
+CC Charge_avg_tension	0.037338498398236004
+Other_avg_current	0.0301005912476495
+CC Discharge_std_tension	0.02793277808304424
+Other_std_tension	0.023474437139525777
+Current Pulses_avg_tension	0.01550130677237295
+CC Discharge_avg_tension	0.013570662295882708
+CV Charge_avg_current	0.011032817790371428
+Other_avg_tension	0.008879823404994287
+Other_std_current	0.006715679296831839
+CC Charge_avg_current	0.006679926098438329
+Current Pulses_std_current	0.006488223824702825
+CC Discharge_std_current	0.006248253561607034
+CV Charge_std_tension	0.0061563484947528176
+CC Charge_std_tension	0.004265516026904802
+Rest_std_tension	0.0030464743570684763
+CV Discharge_avg_current	0.0019038681177166207
+Current Pulses_std_tension	0.001879402149740712
+CV Discharge_std_current	0.0016110991134306242
+CC Discharge_avg_current	0.0014630357910535182
+Current Pulses_avg_current	0.0012297900634448127
+CV Charge_std_current	0.0007749023492729435
+CV Charge_avg_tension	0.0007445017279952843
+CV Discharge_std_tension	0.0005658580755801252
+CV Discharge_avg_tension	0.00030294042757078403
+CC Charge_std_current	0.00023110939936487663
+_std_current	3.624253520988874e-06
+Rest_avg_current	9.867953408977531e-07
+_avg_tension	1.6305871004412222e-07
+_std_tension	1.3836004073167457e-07
+Rest_std_current	8.651919374610158e-08
+_avg_current	6.598000201199761e-11
